@@ -12,7 +12,7 @@ import aiohttp
 prefix = ("~" , "#")
 Hideout = commands.Bot(command_prefix= prefix)
 Hideout.remove_command('help')
-token = "NTY3NTc3NzU0MjgzOTMzNjk2.XLcNLQ.CxIWyjetXZ8XjOBpxZ7jKBqI6Gg"
+token = ""
 @Hideout.event
 async def  on_ready():
     print("Bot is online")
