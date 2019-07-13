@@ -14,9 +14,9 @@ import socket
 prefix_value = ("sec" , "??", ".")
 Breakouts = Bot(command_prefix=prefix_value)
 Breakouts.remove_command('help')
-token = "NDM3NDU4MjA3MDg3MDAxNjEw.Dnabbw.tiOgyxvfn1Qw8ZhhYBzJHyFDi_8"
+token = "YOUR TOKEN"
 players_update = {}
-server = discord.Server(id='541468834473836566')
+server = discord.Server(id='YOUR SERVER ID')
 players= {}
 queues = {}
 def check_queue(id):
