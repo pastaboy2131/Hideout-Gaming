@@ -25,5 +25,5 @@ The Bot is mainly created for protection against Discord's zero day vulnerbility
 # Licensing
 
 This program will soon be under a  commercial license and thus the main source code will be hidden for security and licensing purposes.
-This GutHub Page is for users to describe problems and/or report bugs. However it will contain the old soruce code and/or moderation bot source code.
+This GitHub Page is for users to describe problems and/or report bugs. However it will contain the old soruce code and/or moderation bot source code.
 
