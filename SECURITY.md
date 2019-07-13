@@ -19,3 +19,8 @@ Use this section to tell people how to report a vulnerability.
 Tell them where to go, how often they can expect to get an update on a
 reported vulnerability, what to expect if the vulnerability is accepted or
 declined, etc.
+
+# Report a security vulnerbility
+
+In order to report a vulnerbility that you may had found, just create a new pull request and/or issue with the source code and/or screenshot of 
+the desired application. If it was a Discord related vulnerbility it will be declined.
