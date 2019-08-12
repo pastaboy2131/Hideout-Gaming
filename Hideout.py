@@ -14,9 +14,14 @@ import socket
 prefix_value = ("sec" , "??", ".")
 Breakouts = Bot(command_prefix=prefix_value)
 Breakouts.remove_command('help')
+
 token = "YOUR TOKEN"
 players_update = {}
 server = discord.Server(id='YOUR SERVER ID')
+token = "TOKEN"
+players_update = {}
+server = discord.Server(id='SERVER ID')
+
 players= {}
 queues = {}
 def check_queue(id):
@@ -40,14 +45,14 @@ logger.addHandler(handler)
  #Security notice, Warns administartors and Owner.
 @Breakouts.event
 async def on_group_join(channel, user):
-    security_log = Breakouts.get_channel("564953938160254996")
+    security_log = Breakouts.get_channel("CHANNEL ID")
     embed=discord.Embed(title="Security", color=0x6d6d6d)
     embed.set_author(name="Cipher", url="https://www.instagram.com/parsathedev/" , icon_url="https://cdn.pixabay.com/photo/2017/02/18/12/36/hacker-2077138_960_720.jpg")
     embed.add_field(name=f"The following user {user}is in the following group call/channel{channel}")
     embed.set_footer(text="ACT 1968 ALL RIGHTS RESERVED ~CIPHER/crypt_pas74 ALL SOURCE CODE ARE PROTECTED UNDER THIS ACT AND AS SUCH  ILLEGAL ACTIONS WILL BE PROSTITUTED IN COURT")
 @Breakouts.event
 async def on_typing(channel, user, when):
-    log_channel = Breakouts.get_channel("564953938160254996")
+    log_channel = Breakouts.get_channel("CHANNEL ID")
     embed=discord.Embed(title="User Data", color=0x6d6d6d)
     embed.set_author(name="Cipher", url="https://www.instagram.com/parsathedev/" , icon_url="https://cdn.pixabay.com/photo/2017/02/18/12/36/hacker-2077138_960_720.jpg")
     embed.set_thumbnail(url="https://image.ibb.co/bGrhzp/breakoutservers_logo.jpg")
